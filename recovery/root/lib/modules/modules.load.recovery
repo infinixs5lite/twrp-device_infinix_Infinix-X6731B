@@ -145,9 +145,11 @@ leds-mtk-pwm.ko
 rt4831a_drv.ko
 extcon-mtk-usb.ko
 tcpci_late_sync.ko
+mtk-dvfsrc-helper.ko
 mtk_battery_oc_throttling.ko
 mtk_low_battery_throttling.ko
 pmic_lbat_service.ko
+pmic_lvsys_notify.ko
 mtk_dynamic_loading_throttling.ko
 mtk_bp_thl.ko
 mtk_pbm.ko
@@ -185,7 +187,7 @@ aw862xx_haptic.ko
 tkv.ko
 tkv_recovery.ko
 tran_rhi.ko
-pn553.ko
+nfc_i2c.ko
 transsion_tranlog.ko
 tran_fp.ko
 tran_perf_util.ko
@@ -194,3 +196,4 @@ lzo.ko
 lzo-rle.ko
 atomic_info.ko
 tran_auto_test.ko
+tnek.ko

@@ -145,6 +145,7 @@ tcpci_late_sync.ko
 mtk-dvfsrc-helper.ko
 mtk-dvfsrc-devfreq.ko
 pmic_lbat_service.ko
+pmic_lvsys_notify.ko
 reset-ti-syscon.ko
 mt6358-accdet.ko
 mtk_slbc.ko
@@ -160,6 +161,7 @@ tinysys-scmi.ko
 mtk-mbox-mailbox.ko
 irq-dbg.ko
 mtk-socinfo.ko
+sec.ko
 tkv.ko
 tkv_recovery.ko
 tran_rhi.ko

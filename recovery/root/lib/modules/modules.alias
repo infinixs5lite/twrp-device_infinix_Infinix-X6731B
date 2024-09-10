@@ -95,6 +95,8 @@ alias of:N*T*Cmediatek,mt6589-i2c i2c_mt65xx
 alias of:N*T*Cmediatek,mt6589-i2cC* i2c_mt65xx
 alias of:N*T*Cmediatek,mt6873-i2c i2c_mt65xx
 alias of:N*T*Cmediatek,mt6873-i2cC* i2c_mt65xx
+alias of:N*T*Cmediatek,mt6873-i2c-fifo i2c_mt65xx
+alias of:N*T*Cmediatek,mt6873-i2c-fifoC* i2c_mt65xx
 alias of:N*T*Cmediatek,mt6879-i2c i2c_mt65xx
 alias of:N*T*Cmediatek,mt6879-i2cC* i2c_mt65xx
 alias of:N*T*Cmediatek,mt6983-i2c i2c_mt65xx
@@ -198,6 +200,8 @@ alias of:N*T*Cmediatek,mt6761-disp-pwm pwm_mtk_disp
 alias of:N*T*Cmediatek,mt6761-disp-pwmC* pwm_mtk_disp
 alias of:N*T*Cmediatek,mt6739-disp-pwm pwm_mtk_disp
 alias of:N*T*Cmediatek,mt6739-disp-pwmC* pwm_mtk_disp
+alias of:N*T*Cmediatek,mt6885-disp-pwm pwm_mtk_disp
+alias of:N*T*Cmediatek,mt6885-disp-pwmC* pwm_mtk_disp
 alias of:N*T*Cmediatek,mt6357-dynamic_loading_throttling mtk_dynamic_loading_throttling
 alias of:N*T*Cmediatek,mt6357-dynamic_loading_throttlingC* mtk_dynamic_loading_throttling
 alias of:N*T*Cmediatek,mt6358-dynamic_loading_throttling mtk_dynamic_loading_throttling
@@ -247,8 +251,8 @@ alias of:N*T*Cmediatek,extcon-usb extcon_mtk_usb
 alias of:N*T*Cmediatek,extcon-usbC* extcon_mtk_usb
 alias of:N*T*Cmediatek,usb_meta meta
 alias of:N*T*Cmediatek,usb_metaC* meta
-alias of:N*T*Cnxp,pn544 pn553
-alias of:N*T*Cnxp,pn544C* pn553
+alias of:N*T*Cmediatek,mt6363-lvsys-notify pmic_lvsys_notify
+alias of:N*T*Cmediatek,mt6363-lvsys-notifyC* pmic_lvsys_notify
 alias of:N*T*Crichtek,rfc_ta rfc_ta
 alias of:N*T*Crichtek,rfc_taC* rfc_ta
 alias i2c:rfc_ta rfc_ta
@@ -287,6 +291,8 @@ alias of:N*T*Cmediatek,mt8183-wdt mtk_wdt
 alias of:N*T*Cmediatek,mt8183-wdtC* mtk_wdt
 alias of:N*T*Csyscon-reboot-mode syscon_reboot_mode
 alias of:N*T*Csyscon-reboot-modeC* syscon_reboot_mode
+alias of:N*T*Cnxp,pn544 nfc_i2c
+alias of:N*T*Cnxp,pn544C* nfc_i2c
 alias of:N*T*Cmediatek,mt6357-lbat_service pmic_lbat_service
 alias of:N*T*Cmediatek,mt6357-lbat_serviceC* pmic_lbat_service
 alias of:N*T*Cmediatek,mt6358-lbat_service pmic_lbat_service
@@ -848,6 +854,8 @@ alias of:N*T*Cmediatek,mt6779-mmc mtk_mmc
 alias of:N*T*Cmediatek,mt6779-mmcC* mtk_mmc
 alias of:N*T*Cmediatek,mt6765-mmc mtk_mmc
 alias of:N*T*Cmediatek,mt6765-mmcC* mtk_mmc
+alias of:N*T*Cmediatek,mt6761-mmc mtk_mmc
+alias of:N*T*Cmediatek,mt6761-mmcC* mtk_mmc
 alias of:N*T*Cmediatek,mt6768-mmc mtk_mmc
 alias of:N*T*Cmediatek,mt6768-mmcC* mtk_mmc
 alias of:N*T*Cmediatek,mt6789-mmc mtk_mmc
